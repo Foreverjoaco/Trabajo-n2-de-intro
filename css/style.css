@@ -33,6 +33,15 @@ a:hover {
         padding: 0;
     }
 }
+@media only screen and (max-width: 1366px) {
+    .main-nav {
+        font-size: 0.7em;
+        padding: 0;
+    }
+    .card {
+        margin: auto;
+    }
+}
 
 .push {
     margin-left: auto;
@@ -55,7 +64,7 @@ a {
 }
 
 .blue {
-    background: #02a58a;
+    background: #686de0;
 }
 
 .container {
@@ -93,7 +102,7 @@ a {
 }
 
 .card {
-    background-color: #444;
+    background-color: #b31c99;
     margin: 50px;
 }
 
