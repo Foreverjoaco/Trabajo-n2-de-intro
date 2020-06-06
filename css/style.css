@@ -40,8 +40,14 @@ a:hover {
     }
     .card {
         margin: auto;
+
+
     }
 }
+.button {
+    color: #30336b
+}
+
 
 .push {
     margin-left: auto;
@@ -127,7 +133,7 @@ a {
 
 button {
     cursor:pointer;
-    background: gray;
+    background: rgb(8, 8, 8);
     border: 0;
     font-size: 1rem;
     color: white;
@@ -165,3 +171,12 @@ center {
 div.svg {
     columns: initial;
 }
+
+#unico {
+    background: #30336b;
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+    color: #1b1e53;
+    font-size: 2rem;
+  }

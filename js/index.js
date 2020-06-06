@@ -1,4 +1,4 @@
-$(document).ready(function(){
-    alert("Bienvenidos");
-    console.log("Hola mundo");
-}
+
+
+alert("Bienvenide a los Mejores Cosmeticos!");
+
