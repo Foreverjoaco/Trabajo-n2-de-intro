@@ -1,4 +1,4 @@
 
 
-alert("Bienvenide a los Mejores Cosmeticos!");
+alert("Bienvenides a los Mejores Cosmeticos!");
 

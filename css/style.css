@@ -171,6 +171,10 @@ center {
 div.svg {
     columns: initial;
 }
+div {
+    color: #30336b;
+    background-color: #30336b;
+}
 
 #unico {
     background: #30336b;
@@ -180,3 +184,103 @@ div.svg {
     color: #1b1e53;
     font-size: 2rem;
   }
+
+
+  @media (min-width: 1000px) {
+    body {
+    align: 20px;
+    }
+    head {
+        text-align: left;
+    }
+    div2 {
+    text-align: center;
+    }
+    }
+    div3 {
+        text-align: center;
+    }
+
+    @media (min-width: 500px) {
+        body {
+        align: 20px;
+        }
+        nav {
+            text-align: left;
+            width:500px;
+            height:90px;
+            background:url(image.jpg) no-repeat 0 0;
+        }
+        div2 {
+        text-align: center;
+        }
+        ul {
+            text-align: left;
+            width:px;
+            height:20px;
+            background:url(image.jpg) no-repeat 0 0;
+        }
+        
+
+        html, body {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+        }
+        html {
+            font-family: "helvetica neue", sans-serif;
+        }
+        
+        .nav {
+            border-bottom: 1px solid #040405;
+            text-align: right;
+            height: 70px;
+            line-height: 70px;
+        }
+        .menu {
+            margin: 0 30px 0 0;
+        }
+        .menu a {
+            clear: right;
+            text-decoration: none;
+            color: #050505;
+            margin: 0 10px;
+            line-height: 70px;
+        }
+        
+        span {
+            color: #060607;
+        }
+        
+        label {
+            margin: 0 40px 0 0;
+            font-size: 26px;
+            line-height: 70px;
+            display: none;
+            width: 26px;
+            float: right;
+        }
+        #toggle {
+            display: none;
+        }
+        
+        
+        @media only screen and (max-width: 500px) {
+            label {
+                display: block;
+                cursor: pointer;
+            }
+            .menu {
+                text-align: center;
+                width: 100%;
+                display: none;
+            }
+            .menu a {
+                display: block;
+                border-bottom: 1px solid #060607;
+                margin: 0;
+             
+            }
+            #toggle:checked + .menu {
+                display: block;
+            }
